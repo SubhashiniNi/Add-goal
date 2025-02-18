@@ -17,13 +17,17 @@ export function NewGoal({ handleAddGoal }: Addgoalprops) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="formalign">
       <p>
         <label htmlFor="goal">Your Goal : </label>
+        <br></br>
+        <br></br>
         <input id="goal" type="text" ref={goal} />
       </p>
       <p>
         <label htmlFor="summary">Short Summary : </label>
+        <br></br>
+        <br></br>
         <input id="summary" type="text" ref={summary} />
       </p>
       <p>

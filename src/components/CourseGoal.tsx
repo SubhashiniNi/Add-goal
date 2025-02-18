@@ -34,10 +34,8 @@ export default function CourseGoal({
 }: Coursegoal) {
   return (
     <article>
-      <div>
-        <p>{title}</p>
-        <p>{description}</p>
-      </div>
+      <p>{title}</p>
+      <p>{description}</p>
       <button onClick={() => handleDelete(id)}>Delete</button>
     </article>
   );
