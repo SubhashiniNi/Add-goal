@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 
 type InfoBoxType = {
   mode: "hint" | "warning";
+  severity?: "low" | "medium" | "high";
   children: ReactNode;
 };
 
